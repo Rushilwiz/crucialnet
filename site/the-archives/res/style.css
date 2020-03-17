@@ -1,0 +1,254 @@
+            @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Major+Mono+Display|Montserrat:300,400');
+            
+            * {
+               box-sizing: border-box;
+
+            }
+            
+                  
+          @font-face {
+                font-family: sansThin;
+                src: url("fonts/Sans-Thin.otf");                    
+            }        
+          ::-webkit-scrollbar {
+            width: 10px;
+          }
+
+          ::-webkit-scrollbar-track {
+            background-image: #f1f1f1; 
+          }
+
+          ::-webkit-scrollbar-thumb {
+            background-image: linear-gradient(#0f2027, #203a43, #2c5364);
+          }
+                  
+          ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+          }       
+                  
+                  html {
+                            overflow-x: hidden;
+                  }        
+            #navbar {
+                background-color: black;
+                margin: 0 0;
+                text-align: center;
+                margin: 0 -20px;
+                margin-top: -15px;
+            }
+            nav {
+                color: #0d0d0d;
+            }
+
+            #navbarLogo {
+                font-family: courier;
+                padding: 8px;
+                color: white;
+                display: inline-block;
+                border: 2px solid white;
+                margin-top: 8px;
+                cursor: default;
+            }
+            
+            nav li {
+                list-style: none;
+                display: inline-block;
+                margin: 20px 60px;    
+            }
+
+            nav a {
+                color: #FFFFFF;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: sansThin;
+                letter-spacing: 1px;
+                font-weight: 500;
+                font-size: 150%;
+                cursor: pointer;
+                text-align: center;
+                padding:8px;
+                outline: 1px solid black;
+                transition: outline 2s;
+                -webkit-transition: outline 2s;
+
+            }
+
+            nav a:hover {
+                outline: 1px solid white;
+            }
+                    
+            body {
+                background-image: url("backgrounds/background.png");
+                font-family: Montserrat, monospace;
+                
+            }
+            
+            #landing {
+                font-size: 40px;
+                text-align: center;
+                color: white;
+                background-image: url("backgrounds/header-background.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                border: white 2px solid;
+                border-radius: 25px;
+                margin: 2px 0;
+            }
+            
+            .header-text .underline-span {
+                border-bottom: 2px white solid;
+            }
+            
+                    
+            
+            .card-content h2 .underline-span {
+                border-bottom: 2px gray solid;
+            }
+            
+            .header-text .underline-span {
+                border-bottom: 2px white solid;
+            }
+            
+            .header-text {
+                padding: 30px;
+                margin-top: 0px;
+                font-family: Great Vibes, arial, monospace;
+            }
+            
+            #contact-link {
+                text-decoration: none;
+                color: #000;
+                transition: color .5s;
+            }
+            
+            #contact-link:hover {
+                text-decoration: underline;
+                color: #ffd1dc;
+            }
+            
+            .overlay-link {
+              position: fixed; /* Sit on top of the page content */
+              width: 100%; /* Full width (cover the whole page) */
+              height: 100%; /* Full height (cover the whole page) */
+              top: 0; 
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+              z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+              cursor: pointer; /* Add a pointer on hover */
+            }
+            
+            .subheader {
+                padding: 20px;
+                margin-bottom: 0px;
+                font-family: Major Mono Display, monospace;
+            }
+            
+            .left-column {
+                float: left;
+                width: 78%;
+            }
+            
+            .right-column {
+                float: left;
+                width: 20%;
+                margin-left: 20px;
+
+            }
+            
+            .white-background {
+                background: #111;
+                width: 230px;
+                height: calc (inherit - 3px);
+                z-index: -2;
+                
+            }
+            
+            .about-avatar {
+                float: left;
+                width: 50px;
+                height: 50px;
+                margin-right: 15px;
+                border-radius: 100%;
+                background: #eee no-repeat center;
+                background-size: cover;
+            }
+            
+            .overlay-link {
+                width: inherit;
+                height: 100px;
+                z-index: 1;
+            }
+            
+            .card {
+                box-shadow: 2px 2px 5px #9E9E9E, -1px -1px 5px #9E9E9E;
+                border-radius: 3px;
+                display: grid;
+                margin-top: 40px;
+                height: 40vh;
+                border: 3px solid;
+                border-image: /*linear-gradient(#add8e6, #ED4264);*/ linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+                border-image-slice: 1;
+                transition: border-width .5s ease-in-out;
+                overflow: hidden;
+                cursor: pointer;
+            }
+            
+            .card:hover {
+                border-width: 5px;
+            }
+          
+            .card .img-container {
+                width: inherit;
+                height: 100%;
+                grid-column: 1;
+                background-color: #c1b7b4;
+                background-size: cover;
+                background-position: center center;
+            }
+            .card-content {
+                background-color: #fff;
+                grid-column: 3 / 5;
+                padding: 10px 30px;
+                border-left: 1px solid #ccc;
+                overflow-y: scroll;            
+            }
+            .card h2 {
+                text-transform: uppercase;
+                color: #555;    
+                font-weight: 300;
+            }
+            .card h1 {
+              margin-bottom: 0;
+            }
+            
+            .justify {
+                text-align: justify;
+            }
+            
+            
+            .card-content .author {
+              border-top: 1px solid #cdcdcd;
+              font-weight: 700;
+              margin-top: 25px;
+              padding: 25px 0 10px 0;
+              color: #555;
+              font-size: 10px;
+              font-family: courier, monospace, sans;
+              letter-spacing: 1px;
+            }
+            
+            .row::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            .right-card {
+                  background-color: white;
+                  padding: 20px;
+                  margin-top: 20px;
+                  position: fixed;
+                  border: 2px solid #778899;
+            }
