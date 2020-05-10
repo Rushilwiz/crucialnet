@@ -1,0 +1,17 @@
+---
+- hosts: webservers
+  remote_user: root
+  
+  tasks:
+  - name: fetch latest from github repo
+    git:
+      repo: git@github.com:rushilwiz/crucialnet.git
+      version: master
+      dest: /var/www/crucialnet.org/html
+      accept_hostkey: yes
+      key_file: ~/.ssh/crucialnet_rsa
+
+  - name:  restart nginx
+    service:
+      name: nginx
+      state: restarted     
