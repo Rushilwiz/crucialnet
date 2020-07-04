@@ -200,7 +200,7 @@ nav a:hover {
      transform: translate(-50%, -50%);
      font-size: 300%;
 
-     animation-delay: 15s !important;
+     animation-delay: 3s !important;
      animation: cursor-blink 0.5s infinite alternate, typing-anim 3s steps(14);
      overflow: hidden;
      white-space: nowrap;
