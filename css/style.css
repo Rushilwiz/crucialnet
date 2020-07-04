@@ -27,6 +27,13 @@ html {
      height: 100%;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 body {
      cursor: default;
      overflow-x: hidden;
@@ -548,11 +555,11 @@ footer {
      .toggle {
           display: block;
      }
-     
+
      nav {
           padding-bottom: 20px;
      }
-     
+
      ul {
           width: 100%;
           display: none;
@@ -562,21 +569,21 @@ footer {
           display: block;
           text-align: center;
      }
-     
+
      ul a
-     
+
      .navbar-bot {
           margin-bottom: 0px;
      }
-     
+
      ul .navbarLogo {
           display: none;
      }
-     
+
      .active {
           display: block;
      }
-     
+
      #photo-column {
           display: none;
      }
