@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/rumaretiya
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://crucialnet.org
+  * I am rumaretiya (https://keybase.io/rumaretiya) on keybase.
+  * I have a public key ASAsrGIa4UIPi88gj_7a_nGzR7grXFvhzW-UsvFIDYOJPwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202cac621ae1420f8bcf208ffedafe71b347b82b5c5be1cd6f94b2f1480d83893f0a",
+      "host": "keybase.io",
+      "kid": "01202cac621ae1420f8bcf208ffedafe71b347b82b5c5be1cd6f94b2f1480d83893f0a",
+      "uid": "0b85173efab0076e15ffbf9a1e154819",
+      "username": "rumaretiya"
+    },
+    "merkle_root": {
+      "ctime": 1599193654,
+      "hash": "ae3102431c42af2cf1bb59a2fb8bc5575d4da24ed141c26fde689349de24dd3b33cef5e54a865a3d56d0654ec867303cae02a00d567606a5ca0f30cd2411560a",
+      "hash_meta": "76e3dbf60c64ef5960c38b7a94c9d20d0f0817ea46c69ab1b4a443e790a329b1",
+      "seqno": 17471601
+    },
+    "service": {
+      "entropy": "hUepex7L4dK1XKmgxTxYdI6D",
+      "hostname": "crucialnet.org",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1599193696,
+  "expire_in": 504576000,
+  "prev": "4e4c215d7c5a7eaa9b2e8f34486cde28fa16aaad1390c22237f4afeea3e35fe1",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLKxiGuFCD4vPII/+2v5xs0e4K1xb4c1vlLLxSA2DiT8Kp3BheWxvYWTESpcCCcQgTkwhXXxafqqbLo80SGzeKPoWqq0TkMIiN/Sv7qPjX+HEIPpf9i0Of2IxIdocz9j73HfNS2pyq4ms9OY0/tXOx/ZOAgHCo3NpZ8RAcVeZes9Fm+kjpcOj/y6MT6IWG4l/l5g5EFJRKzJ8v5LzUx9vSIubJBV8R8X9AtAE/Wq7mANgVGUd4Eh4bPDYCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB+LDhro6dCnUOBRoUW9bhmvQ9kVwo5pZhKF0AN22StHo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rumaretiya
+
+==================================================================
