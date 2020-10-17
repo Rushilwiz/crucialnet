@@ -11,6 +11,8 @@ $(document).ready(function(){
 
      $('.menu').click(function() {
           $('ul').toggleClass('active');
+          $('.menu').toggleClass('change');
+          $('nav').toggleClass('bottom-padding')
      })
 
      $.getJSON("https://api.ipify.org?format=json",
@@ -19,6 +21,6 @@ $(document).ready(function(){
     })
 });
 
-$(window).load(function() {
+$(window).on('load', function() {
   $("body").removeClass("preload");
 });
