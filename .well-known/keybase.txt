@@ -1,0 +1,55 @@
+://keybase.io/rumaretiya
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://crucialnet.org
+  * I am rumaretiya (https://keybase.io/rumaretiya) on keybase.
+  * I have a public key ASAgJUgiFZbTJkXpiv4BTq-BaQTiBMb1Nk1fG0I7htzwggo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202cac621ae1420f8bcf208ffedafe71b347b82b5c5be1cd6f94b2f1480d83893f0a",
+      "host": "keybase.io",
+      "kid": "0120202548221596d32645e98afe014eaf816904e204c6f5364d5f1b423b86dcf0820a",
+      "uid": "0b85173efab0076e15ffbf9a1e154819",
+      "username": "rumaretiya"
+    },
+    "merkle_root": {
+      "ctime": 1602957524,
+      "hash": "62513d264c4d1db6bad5e1a29bbd5c5e03c0a176785d8808e37073ade318b1e646861ecb2b2a0cc50f30c279d407dc0c5e7e225086e217ad82ad277da7a6a20d",
+      "hash_meta": "3d03717fbf4ef830293dca9bf517ce2c996a8a9d707cf9df61795076114a2d9d",
+      "seqno": 17854646
+    },
+    "service": {
+      "entropy": "cQ3Hgio8hE0vtR/WA7sRH8aq",
+      "hostname": "crucialnet.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1602957593,
+  "expire_in": 504576000,
+  "prev": "4e88d8ab5fa18f08540870ff55a4740c3233078902d59d620e6cc6a9e5dabc12",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgICVIIhWW0yZF6Yr+AU6vgWkE4gTG9TZNXxtCO4bc8IIKp3BheWxvYWTESpcCFcQgTojYq1+hjwhUCHD/VaR0DDIzB4kC1Z1iDmzGqeXavBLEIMwi++bTLMPpi+EFibbKdd9ZrDoH9Gi3rgexMfvshoX2AgHCo3NpZ8RACJYAAEGU39P7B8faIF4e0Ajr0GQmxGMp5MxqiEN0z4JcNemBqoY8YCdDclhO3IZ+pcxkBUseFCqmw61F16HTA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIL0ldbzcjU+S7SMZ5ebF2RHnw5OI5nNT0hYNlZ7wUSLDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rumaretiya
+
+==================================================================
